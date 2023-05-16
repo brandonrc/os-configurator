@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "configurator"
+version = "0.1.0"
+description = "A tool for applying configuration layers to a base image."
+authors = ["Your Name <your@email.com>"]
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+toml = "^0.10.2"
